@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOGIN</title>
+        <style type="text/css">
+            body{
+    margin: 0;
+    padding: 0;
+    background: url("bgi.jpg") no-repeat;
+    background-size: cover;
+    text-align:center;
+
+}
+
+            #main{
+                
+                background-color: #db94a6;
+                padding: 40px;
+                text-align: center;
+                margin: auto;
+                margin-top: 5%;
+                width: 250px;
+                height: 350px;
+                border-radius:30px;
+                outline: auto rgb(12, 12, 12);
+             
+            }
+            .main-img{
+              border-radius: 50%;
+              width: 100px;
+              height: 100px;
+             outline: auto rgba(74, 7, 163);
+             
+
+            }
+        
+            .text{
+                background-color: rgb(199, 92, 92);
+                color: black;
+                width: 250px;
+                font-weight: normal;
+                font-size: 20px;
+                border: none;
+                
+            }
+            .text:focus{
+                outline:auto black;
+            }
+            #sub{
+                width:150px;
+                height: 30px;
+                background-color: rgb(104, 74, 79);
+                border: rosybrown;
+                outline: auto rgb(5, 5, 5);
+             
+            }
+            .a:hover
+{
+color: #39dc79;
+}
+            </style>
+</head>
+<body>
+
+<center>
+    <h1> Login Here</h1> 
+    <div id="main">
+       
+        <img src="avatar.jpg" alt="" class="main-img">
+ <form method="POST">
+     <br>
+    <input type ="text" name="username"class="text"autocomplete="off" required placeholder="Username"><br><br><br>
+    <input type="Password" name="password" class="text" required placeholder="Password"><br><br><br>
+     <input type="Submit" name="submit" value=" Login" id="sub">
+     <br><br>
+     <a href="#">Forgot Password</a>
+        </center>
+</form>
+</div>
+</body>
+</html>
+
+
+
